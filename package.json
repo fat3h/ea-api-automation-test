@@ -4,7 +4,8 @@
   "description": "EnergyAustralia Coding Test for Quality Engineers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha 'test/festivals.js'  --timeout 100000 --reporter mochawesome",
+    "report": "marge mochawesome-report/mochawesome.json"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "mochawesome": "^7.1.2",
     "mochawesome-report-generator": "^6.1.1",
     "should": "^13.2.3",
+    "should-http": "^0.1.1",
     "supertest": "^6.2.2"
   }
 }
