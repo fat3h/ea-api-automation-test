@@ -1,5 +1,4 @@
-# ea-api-automation-test
- EnergyAustralia Coding Test for Quality Engineers
+# EnergyAustralia Coding Test for Quality Engineers
 
 This test is to verify the response of Festival API is as per the swagger specifications.
 Language/tools used: JavaScript, Mocha, SuperTest, Should, Mochawesome
